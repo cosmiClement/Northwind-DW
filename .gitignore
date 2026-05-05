@@ -1,0 +1,32 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+
+# Build folders
+bin/
+obj/
+
+# SQL Server files (NO subir bases físicas)
+*.mdf
+*.ldf
+
+# Backup files
+*.bak
+
+# Temp files
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node (por si usas web después)
+node_modules/
+
+# Secrets (MUY IMPORTANTE)
+.env
+appsettings.json
